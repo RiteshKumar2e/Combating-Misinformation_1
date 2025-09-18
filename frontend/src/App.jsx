@@ -590,8 +590,7 @@ print(f"Credibility Score: {result['credibility_score']}")`}
             </div>
           </div>
         )}
-
-        {/* Contact Page */}
+{/* Contact Page */}
 {currentPage === 'contact' && (
   <div className="page active contact-page">
     <div className="contact-container">
@@ -674,6 +673,5 @@ print(f"Credibility Score: {result['credibility_score']}")`}
       </div>
     </div>
   );
-};
-
+}
 export default App;
